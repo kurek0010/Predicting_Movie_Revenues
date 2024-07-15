@@ -1,0 +1,13 @@
+The movie business has always been a very risky and unpredictable one. 
+Our senior management is seeking to improve the quality of movie revenue forecasts by adding machine learning to its toolset. 
+Improving the precision of predictions could give us a competitive advantage over other production companies. 
+Senior management has asked our data & analytics team to tune, test and compare various regression models. 
+We will then identify and deliver the best model with the highest prediction quality.
+
+Your colleagues have already prepared a dataset (movies.csv) with 1) the box office revenue (target) for over 3,500 movies since 1998 and 2) various factors influencing revenues such as the movie budget (features). 
+Your task as our data scientist is to tune, test and evaluate an XGBoost Regression model (with gbtree booster). 
+I recommend working with Python (pandas, numpy, seaborn, xgboost, and scikit-learn) for this project. 
+You should use tools like pipelines, column transformers, imputers, feature scaling/standardization, and random search cross-validation for model training, tuning, evaluation, and selection. 
+Before you start with the model, please perform a brief Explanatory Data Analysis (EDA). 
+To evaluate the quality of predictions, use the scores Root Mean Squared Error (RMSE) and the Coefficient of Determination (R-squared). 
+Finally, your task is to identify and share the best model (and its tuned hyperparameters) that minimizes the RMSE score.
